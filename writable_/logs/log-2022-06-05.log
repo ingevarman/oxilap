@@ -1,0 +1,32 @@
+CRITICAL - 2022-06-05 18:17:13 --> Archivo inválido: layouts/admin2.php
+#0 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(31): view()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ArchivoDocente\Kardex->index()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-05 18:17:31 --> syntax error, unexpected '?>'
+#0 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(31): view()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ArchivoDocente\Kardex->index()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-05 18:50:17 --> Cache no pudo escribir a C:\xampp\htdocs\oxilap\writable\cache/
+#0 C:\xampp\htdocs\oxilap\vendor\codeigniter4\framework\system\Cache\Handlers\FileHandler.php(61): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oxilap\vendor\codeigniter4\framework\system\Cache\CacheFactory.php(60): CodeIgniter\Cache\Handlers\FileHandler->__construct(Object(Config\Cache))
+#2 C:\xampp\htdocs\oxilap\vendor\codeigniter4\framework\system\Config\Services.php(106): CodeIgniter\Cache\CacheFactory::getHandler(Object(Config\Cache))
+#3 C:\xampp\htdocs\oxilap\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oxilap\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#5 C:\xampp\htdocs\oxilap\vendor\codeigniter4\framework\system\Config\Services.php(101): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#6 C:\xampp\htdocs\oxilap\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::cache()
+#7 C:\xampp\htdocs\oxilap\vendor\codeigniter4\framework\system\Common.php(67): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#8 C:\xampp\htdocs\oxilap\vendor\codeigniter4\framework\system\CodeIgniter.php(604): cache()
+#9 C:\xampp\htdocs\oxilap\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#10 C:\xampp\htdocs\oxilap\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

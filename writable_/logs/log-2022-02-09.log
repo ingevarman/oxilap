@@ -1,0 +1,36 @@
+CRITICAL - 2022-02-09 21:57:58 --> Undefined variable: rowPostulanteApi
+#0 /home/garmaser/www/html/sac-prusuf/app/Views/inscripcion/ver_postulante.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(167): view()
+#5 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(116): App\Controllers\Inscripcion->verificar_inscripcion()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->buscar()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-09 21:58:18 --> Undefined variable: rowPostulanteApi
+#0 /home/garmaser/www/html/sac-prusuf/app/Views/inscripcion/ver_postulante.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(167): view()
+#5 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(116): App\Controllers\Inscripcion->verificar_inscripcion()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->buscar()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-09 22:28:37 --> Undefined variable: rowPostulanteApi
+#0 /home/garmaser/www/html/sac-prusuf/app/Views/inscripcion/ver_postulante.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(167): view()
+#5 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(116): App\Controllers\Inscripcion->verificar_inscripcion()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->buscar()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

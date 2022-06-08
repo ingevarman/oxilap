@@ -1,0 +1,18 @@
+CRITICAL - 2022-04-21 00:07:47 --> Too few arguments to function GroceryCrud\Core\GroceryCrud::unsetSearchColumns(), 0 passed in /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Titulo.php on line 45 and exactly 1 expected
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Titulo.php(45): GroceryCrud\Core\GroceryCrud->unsetSearchColumns()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Titulo->index()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 11:01:12 --> Undefined variable: rowDocente
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Views/archivoDocente/archivo.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(22): view()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#6 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

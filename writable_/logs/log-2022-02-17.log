@@ -1,0 +1,13 @@
+CRITICAL - 2022-02-17 22:31:00 --> Call to undefined method App\Models\InscripcionPreuniversitarioModel::getRow
+#0 /home/garmaser/www/html/sac-prusuf/app/Models/InscripcionPreuniversitarioModel.php(56): CodeIgniter\Model->__call()
+#1 /home/garmaser/www/html/sac-prusuf/app/Controllers/Caja.php(123): App\Models\InscripcionPreuniversitarioModel->asignar_numero_asiento()
+#2 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(1004): App\Controllers\Caja->App\Controllers\{closure}()
+#3 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(328): GroceryCrud\Core\State\StateAbstract->beforeStateOperation()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/InsertState.php(95): GroceryCrud\Core\State\StateAbstract->stateOperationWithCallbacks()
+#5 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\InsertState->render()
+#6 /home/garmaser/www/html/sac-prusuf/app/Controllers/Caja.php(139): GroceryCrud\Core\GroceryCrud->render()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Caja->ventas()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

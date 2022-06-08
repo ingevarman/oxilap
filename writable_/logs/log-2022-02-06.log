@@ -1,0 +1,136 @@
+CRITICAL - 2022-02-06 03:33:43 --> insertBatch() called with no data
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(814): CodeIgniter\Model->doInsertBatch()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Importar.php(92): CodeIgniter\BaseModel->insertBatch()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Importar->notas()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-06 03:37:33 --> insertBatch() called with no data
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(814): CodeIgniter\Model->doInsertBatch()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Importar.php(93): CodeIgniter\BaseModel->insertBatch()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Importar->notas()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-06 03:38:07 --> insertBatch() called with no data
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(814): CodeIgniter\Model->doInsertBatch()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Importar.php(93): CodeIgniter\BaseModel->insertBatch()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Importar->notas()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-06 03:38:55 --> Call to a member function insertBatch() on null
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Importar->notas()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-06 03:40:22 --> Call to a member function insertBatch() on null
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Importar->notas()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-06 03:55:14 --> Call to a member function insertBatch() on null
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Importar->notas()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-06 03:55:43 --> Call to a member function insertBatch() on null
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Importar->notas()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-06 03:56:18 --> insertBatch() called with no data
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(814): CodeIgniter\Model->doInsertBatch()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Importar.php(94): CodeIgniter\BaseModel->insertBatch()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Importar->notas()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-06 04:01:29 --> Unknown column 'id_preuniveritario' in 'where clause'
+CRITICAL - 2022-02-06 04:01:29 --> Unknown column 'id_preuniveritario' in 'where clause'
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/garmaser/www/html/sac-prusuf/app/Models/InscripcionPreuniversitarioModel.php(46): CodeIgniter\Model->__call()
+#6 /home/garmaser/www/html/sac-prusuf/app/Controllers/Importar.php(72): App\Models\InscripcionPreuniversitarioModel->verificar_importacion()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Importar->notas()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-06 04:14:34 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-06 04:16:05 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-06 04:18:11 --> Los campos permitidos deben especificarse para el modelo: App\Models\InscripcionPreuniversitarioNotaModel
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(799): CodeIgniter\BaseModel->doProtectFields()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Importar.php(95): CodeIgniter\BaseModel->insertBatch()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Importar->notas()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-06 04:22:15 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-02-06 04:22:15 --> Duplicate entry '1' for key 'PRIMARY'
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(814): CodeIgniter\Model->doInsertBatch()
+#6 /home/garmaser/www/html/sac-prusuf/app/Controllers/Importar.php(94): CodeIgniter\BaseModel->insertBatch()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Importar->notas()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-06 04:24:04 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-06 04:24:30 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-02-06 04:24:30 --> Duplicate entry '1' for key 'PRIMARY'
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(814): CodeIgniter\Model->doInsertBatch()
+#6 /home/garmaser/www/html/sac-prusuf/app/Controllers/Importar.php(94): CodeIgniter\BaseModel->insertBatch()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Importar->notas()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-02-06 04:30:59 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-06 04:31:41 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-02-06 04:31:41 --> Undefined index: error
+#0 /home/garmaser/www/html/sac-prusuf/app/Controllers/Importar.php(98): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Importar->notas()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-06 04:31:59 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-06 04:32:47 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-02-06 04:33:46 --> Duplicate entry '1' for key 'PRIMARY'

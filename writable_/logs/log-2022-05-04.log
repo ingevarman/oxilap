@@ -1,0 +1,18 @@
+CRITICAL - 2022-05-04 20:51:31 --> syntax error, unexpected 'return' (T_RETURN)
+#0 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Filters/Filters.php(162): spl_autoload_call()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-04 20:52:29 --> syntax error, unexpected 'return' (T_RETURN)
+#0 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Filters/Filters.php(162): spl_autoload_call()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

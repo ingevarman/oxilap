@@ -1,0 +1,116 @@
+CRITICAL - 2022-02-04 19:30:01 --> Undefined offset: 2
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(89): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(190): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-04 19:30:06 --> Undefined offset: 2
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(89): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(190): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-04 19:32:17 --> Undefined offset: 2
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(89): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(190): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-04 19:32:42 --> Undefined offset: 2
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(89): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(190): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-04 19:39:00 --> Undefined offset: 2
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(97): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(190): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-04 19:40:39 --> Undefined offset: 2
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(92): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(190): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-04 19:41:57 --> Undefined offset: 2
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(92): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(190): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-04 19:44:34 --> Undefined offset: 2
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(92): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(190): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-04 19:50:40 --> Undefined offset: 1
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(93): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(190): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-04 22:12:42 --> syntax error, unexpected '$rowPreuniversitario' (T_VARIABLE)
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(182): spl_autoload_call()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_hoja_respuesta()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-04 22:58:16 --> Trying to get property 'tipo' of non-object
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/HojaRespuesta.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(183): App\Libraries\reportes\HojaRespuesta->reporte()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_hoja_respuesta()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 23:39:24 --> Undefined property: stdClass::$url_hoja_respuestas
+#0 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(66): App\Controllers\Postulante->resultado_examen()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->index()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 23:56:24 --> syntax error, unexpected ':'
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(68): view()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->index()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

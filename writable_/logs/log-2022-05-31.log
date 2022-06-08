@@ -1,0 +1,35 @@
+CRITICAL - 2022-05-31 22:44:57 --> Undefined property: stdClass::$icon
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Views/inicio.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/Administrador.php(31): view()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Administrador->principal()
+#6 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 22:45:19 --> Undefined property: stdClass::$icon
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Views/inicio.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/Administrador.php(31): view()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Administrador->principal()
+#6 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 22:46:21 --> Undefined property: stdClass::$url
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/Auth.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->index()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 23:49:13 --> El filtro auth2 debe tener un alias coincidente definido.
+#0 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

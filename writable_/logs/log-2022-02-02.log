@@ -1,0 +1,149 @@
+CRITICAL - 2022-02-02 18:35:16 --> Undefined offset: 2
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(89): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(167): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 18:46:04 --> Undefined offset: 2
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(89): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(167): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 18:46:34 --> Undefined offset: 2
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(89): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(167): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 19:20:02 --> Undefined offset: 1
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(106): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(89): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(190): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 19:39:24 --> Undefined variable: fechaHabilitacion
+#0 /home/garmaser/www/html/sac-prusuf/app/Views/postulante/index.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(43): view()
+#5 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(31): App\Controllers\Postulante->set_preuniversitario()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(779): App\Controllers\Postulante->__construct()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 19:40:28 --> Undefined variable: fechaHabilitacion
+#0 /home/garmaser/www/html/sac-prusuf/app/Views/postulante/index.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(43): view()
+#5 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(31): App\Controllers\Postulante->set_preuniversitario()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(779): App\Controllers\Postulante->__construct()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 19:40:29 --> Undefined variable: fechaHabilitacion
+#0 /home/garmaser/www/html/sac-prusuf/app/Views/postulante/index.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(43): view()
+#5 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(31): App\Controllers\Postulante->set_preuniversitario()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(779): App\Controllers\Postulante->__construct()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 19:42:27 --> Archivo inválido: postulante/formulario_acceso.php
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(59): view()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->index()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 19:43:36 --> Archivo inválido: postulante/formulario_acceso.php
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(59): view()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->index()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 19:43:37 --> Archivo inválido: postulante/formulario_acceso.php
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(59): view()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->index()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 19:43:37 --> Archivo inválido: postulante/formulario_acceso.php
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(59): view()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->index()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 19:43:37 --> Archivo inválido: postulante/formulario_acceso.php
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(59): view()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->index()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 19:44:25 --> Archivo inválido: postulante/formulario_acceso.php
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(59): view()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->index()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 19:44:26 --> Archivo inválido: postulante/formulario_acceso.php
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(59): view()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->index()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 20:28:12 --> syntax error, unexpected '>=' (T_IS_GREATER_OR_EQUAL)
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 20:28:13 --> syntax error, unexpected '>=' (T_IS_GREATER_OR_EQUAL)
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

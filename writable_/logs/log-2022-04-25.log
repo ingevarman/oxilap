@@ -1,0 +1,335 @@
+CRITICAL - 2022-04-25 15:57:18 --> Undefined property: App\Controllers\ArchivoDocente\Kardex::$data
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 15:58:53 --> Argument 2 passed to view() must be of the type array, null given, called in /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php on line 25
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(25): view()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 15:59:08 --> Argument 2 passed to view() must be of the type array, null given, called in /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php on line 25
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(25): view()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 15:59:09 --> Argument 2 passed to view() must be of the type array, null given, called in /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php on line 25
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(25): view()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 16:01:03 --> Argument 2 passed to view() must be of the type array, null given, called in /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php on line 27
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(27): view()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 16:01:04 --> Argument 2 passed to view() must be of the type array, null given, called in /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php on line 27
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(27): view()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 16:03:45 --> Argument 2 passed to view() must be of the type array, null given, called in /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php on line 27
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(27): view()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 16:03:46 --> Argument 2 passed to view() must be of the type array, null given, called in /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php on line 27
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(27): view()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 16:06:06 --> Argument 2 passed to view() must be of the type array, null given, called in /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php on line 27
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(27): view()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 16:07:11 --> Call to a member function get_titulo() on null
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(24): App\Controllers\ArchivoDocente\Kardex->set_titulo()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 16:12:37 --> Undefined variable: rowsTitulo
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Views/archivoDocente/kardex/index.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(29): view()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#6 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 16:13:44 --> Undefined property: mysqli::$nombre_grado_academico
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Views/archivoDocente/kardex/index.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(29): view()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#6 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 16:15:53 --> Undefined variable: rowsTitulo
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Views/archivoDocente/kardex/index.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(29): view()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#6 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 16:15:56 --> Undefined variable: rowsTitulo
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Views/archivoDocente/kardex/index.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(29): view()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#6 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 16:16:41 --> Undefined variable: rowsTitulo
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Views/archivoDocente/kardex/index.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(29): view()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#6 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 16:16:52 --> Undefined variable: rowsTitulo
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Views/archivoDocente/kardex/index.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(29): view()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#6 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 16:17:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultObject()
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(44): App\Models\TituloModel->get_titulo()
+#1 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(24): App\Controllers\ArchivoDocente\Kardex->set_titulo()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 16:19:47 --> Call to undefined method App\Models\TituloModel::getResult
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Models/TituloModel.php(48): CodeIgniter\Model->__call()
+#1 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(44): App\Models\TituloModel->get_titulo()
+#2 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(24): App\Controllers\ArchivoDocente\Kardex->set_titulo()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 17:08:10 --> Undefined variable: kardex
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Views/archivoDocente/kardex/index.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(30): view()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#6 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 17:10:32 --> Undefined variable: rowsTitulo
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Views/archivoDocente/kardex/index.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(33): view()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#6 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 17:38:12 --> Call to undefined method App\Models\ProduccionIntelectualModel::get_titulo
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(69): CodeIgniter\Model->__call()
+#1 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(26): App\Controllers\ArchivoDocente\Kardex->set_produccionIntelectual()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 17:38:58 --> Undefined property: stdClass::$archivo_digital
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(26): App\Controllers\ArchivoDocente\Kardex->set_produccionIntelectual()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 17:39:33 --> Undefined property: stdClass::$archivo_digital
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(26): App\Controllers\ArchivoDocente\Kardex->set_produccionIntelectual()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 17:40:21 --> Undefined property: stdClass::$archivo_digital
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(26): App\Controllers\ArchivoDocente\Kardex->set_produccionIntelectual()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-25 17:58:17 --> Unknown column 'id_docente' in 'where clause'
+CRITICAL - 2022-04-25 17:58:17 --> Unknown column 'id_docente' in 'where clause'
+#0 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/garmaser/www/html/medicina_archivo_docente/app/Models/AsignacionModel.php(48): CodeIgniter\Model->__call()
+#6 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(105): App\Models\AsignacionModel->get_asignacion()
+#7 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(28): App\Controllers\ArchivoDocente\Kardex->set_evaluaciones()
+#8 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#9 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-25 17:58:34 --> Unknown column 'id_docente' in 'where clause'
+CRITICAL - 2022-04-25 17:58:34 --> Unknown column 'id_docente' in 'where clause'
+#0 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/garmaser/www/html/medicina_archivo_docente/app/Models/AsignacionModel.php(48): CodeIgniter\Model->__call()
+#6 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(105): App\Models\AsignacionModel->get_asignacion()
+#7 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(28): App\Controllers\ArchivoDocente\Kardex->set_evaluaciones()
+#8 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#9 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-25 18:04:55 --> Unknown column 'asignatura.id_asignatura' in 'on clause'
+CRITICAL - 2022-04-25 18:04:55 --> Unknown column 'asignatura.id_asignatura' in 'on clause'
+#0 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/garmaser/www/html/medicina_archivo_docente/app/Models/AsignacionModel.php(48): CodeIgniter\Model->__call()
+#6 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(105): App\Models\AsignacionModel->get_asignacion()
+#7 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(28): App\Controllers\ArchivoDocente\Kardex->set_evaluaciones()
+#8 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#9 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-25 18:16:20 --> Call to undefined method App\Controllers\ArchivoDocente\Evaluacion::_getGroceryCrudEnterprise()
+#0 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Evaluacion->index()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 18:49:31 --> syntax error, unexpected '='
+#0 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(767): class_exists()
+#5 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-25 21:40:35 --> Statement could not be executed (HY000 - 1364 - Field 'id_curso_tipo' doesn't have a default value)
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/Model.php(517): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#1 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/InsertState.php(85): GroceryCrud\Core\Model->insert()
+#2 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(1009): GroceryCrud\Core\State\InsertState->GroceryCrud\Core\State\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(334): GroceryCrud\Core\State\StateAbstract->stateOperation()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/InsertState.php(95): GroceryCrud\Core\State\StateAbstract->stateOperationWithCallbacks()
+#5 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\InsertState->render()
+#6 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/Administrador.php(98): GroceryCrud\Core\GroceryCrud->render()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->curso_tipo()
+#8 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-25 21:40:41 --> Statement could not be executed (HY000 - 1364 - Field 'id_curso_tipo' doesn't have a default value)
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/Model.php(517): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#1 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/InsertState.php(85): GroceryCrud\Core\Model->insert()
+#2 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(1009): GroceryCrud\Core\State\InsertState->GroceryCrud\Core\State\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(334): GroceryCrud\Core\State\StateAbstract->stateOperation()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/InsertState.php(95): GroceryCrud\Core\State\StateAbstract->stateOperationWithCallbacks()
+#5 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\InsertState->render()
+#6 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/Administrador.php(98): GroceryCrud\Core\GroceryCrud->render()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->curso_tipo()
+#8 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-25 21:49:03 --> Directory does not exist
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(451): Upload\Storage\FileSystem->__construct()
+#1 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/UploadState.php(55): GroceryCrud\Core\State\StateAbstract->upload()
+#2 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(1009): GroceryCrud\Core\State\UploadState->GroceryCrud\Core\State\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(334): GroceryCrud\Core\State\StateAbstract->stateOperation()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/UploadState.php(67): GroceryCrud\Core\State\StateAbstract->stateOperationWithCallbacks()
+#5 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\UploadState->render()
+#6 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Curso.php(45): GroceryCrud\Core\GroceryCrud->render()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Curso->index()
+#8 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-25 21:50:27 --> Directory is not writable
+#0 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(451): Upload\Storage\FileSystem->__construct()
+#1 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/UploadState.php(55): GroceryCrud\Core\State\StateAbstract->upload()
+#2 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(1009): GroceryCrud\Core\State\UploadState->GroceryCrud\Core\State\{closure}()
+#3 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(334): GroceryCrud\Core\State\StateAbstract->stateOperation()
+#4 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/UploadState.php(67): GroceryCrud\Core\State\StateAbstract->stateOperationWithCallbacks()
+#5 /home/garmaser/www/html/medicina_archivo_docente/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\UploadState->render()
+#6 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Curso.php(45): GroceryCrud\Core\GroceryCrud->render()
+#7 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Curso->index()
+#8 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-25 22:06:53 --> FUNCTION medicina_archivo_docente.data_format does not exist
+CRITICAL - 2022-04-25 22:06:53 --> FUNCTION medicina_archivo_docente.data_format does not exist
+#0 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/garmaser/www/html/medicina_archivo_docente/app/Models/CursoModel.php(47): CodeIgniter\Model->__call()
+#6 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(88): App\Models\CursoModel->get_curso()
+#7 /home/garmaser/www/html/medicina_archivo_docente/app/Controllers/ArchivoDocente/Kardex.php(27): App\Controllers\ArchivoDocente\Kardex->set_curso()
+#8 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\ArchivoDocente\Kardex->index()
+#9 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/medicina_archivo_docente/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/medicina_archivo_docente/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

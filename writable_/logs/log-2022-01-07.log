@@ -1,0 +1,15 @@
+CRITICAL - 2022-01-07 01:07:38 --> Call to undefined method App\Controllers\Administrador::vista_grocerycrud()
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->postulante()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-07 01:22:09 --> Undefined offset: 2
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(89): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(167): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

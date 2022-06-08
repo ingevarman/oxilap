@@ -1,0 +1,234 @@
+CRITICAL - 2021-10-15 00:52:06 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-15 00:52:12 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-15 00:54:23 --> Undefined property: App\Controllers\Inscripcion::$db
+#0 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(171): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(128): App\Controllers\Inscripcion->postulante_new()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->buscar_api()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-15 00:56:37 --> Allowed fields must be specified for model: App\Models\PostulanteModel
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#3 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(211): CodeIgniter\Model->insert()
+#4 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(128): App\Controllers\Inscripcion->postulante_new()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->buscar_api()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-15 01:01:49 --> Duplicate entry 'jhamilangelpariquenta@gmail.com' for key 'email'
+CRITICAL - 2021-10-15 01:01:49 --> Duplicate entry 'jhamilangelpariquenta@gmail.com' for key 'email'
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(848): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(217): IonAuth\Models\IonAuthModel->register()
+#6 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(175): IonAuth\Libraries\IonAuth->register()
+#7 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(128): App\Controllers\Inscripcion->postulante_new()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->buscar_api()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-15 01:12:56 --> Duplicate entry 'jhamilangelpariquenta@gmail.com' for key 'email'
+CRITICAL - 2021-10-15 01:12:56 --> Duplicate entry 'jhamilangelpariquenta@gmail.com' for key 'email'
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(848): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(217): IonAuth\Models\IonAuthModel->register()
+#6 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(175): IonAuth\Libraries\IonAuth->register()
+#7 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(128): App\Controllers\Inscripcion->postulante_new()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->buscar_api()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-15 01:30:49 --> Duplicate entry 'jhamilangelpariquenta@gmail.com' for key 'email'
+CRITICAL - 2021-10-15 01:30:49 --> Duplicate entry 'jhamilangelpariquenta@gmail.com' for key 'email'
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(848): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(217): IonAuth\Models\IonAuthModel->register()
+#6 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(175): IonAuth\Libraries\IonAuth->register()
+#7 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(128): App\Controllers\Inscripcion->postulante_new()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->buscar_api()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-15 02:29:19 --> Duplicate entry 'jhamilangelpariquenta@gmail.com' for key 'email'
+CRITICAL - 2021-10-15 02:29:19 --> Duplicate entry 'jhamilangelpariquenta@gmail.com' for key 'email'
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(848): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(217): IonAuth\Models\IonAuthModel->register()
+#6 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(185): IonAuth\Libraries\IonAuth->register()
+#7 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(140): App\Controllers\Inscripcion->postulante_new()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->buscar_api()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-15 02:52:05 --> syntax error, unexpected ')', expecting ';' or ','
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(54): view()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->add()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-15 07:51:40 --> 6 : Could not resolve host: servicioapi.upea.bo
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(621): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(319): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(115): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/garmaser/www/html/sac-prusuf/app/Libraries/Api_prefas.php(45): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(134): App\Libraries\Api_prefas->postulante()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->buscar_api()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 07:55:28 --> Cannot redeclare App\Controllers\Inscripcion::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-15 07:55:41 --> Cannot redeclare App\Controllers\Inscripcion::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-15 07:57:38 --> Statement could not be executed (42S02 - 1146 - Table 'sac_prusuf.vista_preuniversitario' doesn't exist)
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/Model.php(758): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/Model.php(199): GroceryCrud\Core\Model->getFieldTypes()
+#2 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(1030): GroceryCrud\Core\Model->getColumnNames()
+#3 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(1669): GroceryCrud\Core\State\StateAbstract->getColumnNames()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/InitialState.php(71): GroceryCrud\Core\State\StateAbstract->transformFieldsList()
+#5 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/InitialState.php(29): GroceryCrud\Core\State\InitialState->showInitData()
+#6 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\InitialState->render()
+#7 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(253): GroceryCrud\Core\GroceryCrud->render()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->list()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-15 07:58:07 --> Too few arguments to function GroceryCrud\Core\GroceryCrud::setPrimaryKey(), 1 passed in /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php on line 251 and exactly 2 expected
+#0 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(251): GroceryCrud\Core\GroceryCrud->setPrimaryKey()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->list()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-15 07:58:24 --> Statement could not be executed (42S02 - 1146 - Table 'sac_prusuf.vista_preuniversitario' doesn't exist)
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/Model.php(758): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/Model.php(199): GroceryCrud\Core\Model->getFieldTypes()
+#2 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(1030): GroceryCrud\Core\Model->getColumnNames()
+#3 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(1669): GroceryCrud\Core\State\StateAbstract->getColumnNames()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/InitialState.php(71): GroceryCrud\Core\State\StateAbstract->transformFieldsList()
+#5 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/InitialState.php(29): GroceryCrud\Core\State\InitialState->showInitData()
+#6 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\InitialState->render()
+#7 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(254): GroceryCrud\Core\GroceryCrud->render()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->list()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-15 07:59:00 --> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'vista_postulante.id_preuniversitario' in 'field list'
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/zendframework/zend-db/src/Adapter/Driver/Pdo/Connection.php(360): PDO->query()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/zendframework/zend-db/src/Adapter/Adapter.php(190): Zend\Db\Adapter\Driver\Pdo\Connection->execute()
+#2 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/Model.php(1131): Zend\Db\Adapter\Adapter->query()
+#3 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/Model.php(1393): GroceryCrud\Core\Model->getResultsFromSelect()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/DatagridState.php(355): GroceryCrud\Core\Model->getList()
+#5 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/DatagridState.php(366): GroceryCrud\Core\State\DatagridState->getData()
+#6 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\DatagridState->render()
+#7 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(254): GroceryCrud\Core\GroceryCrud->render()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->list()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-15 07:59:27 --> Trying to access array offset on value of type bool
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/Model.php(317): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/Model.php(292): GroceryCrud\Core\Model->_getPrimaryKey()
+#2 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(1076): GroceryCrud\Core\Model->getPrimaryKeyField()
+#3 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/EditFormState.php(39): GroceryCrud\Core\State\StateAbstract->getPrimaryKeyName()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/EditFormState.php(65): GroceryCrud\Core\State\EditFormState->initialize()
+#5 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\EditFormState->render()
+#6 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(254): GroceryCrud\Core\GroceryCrud->render()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->list()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-15 08:03:49 --> syntax error, unexpected '$crud' (T_VARIABLE)
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-15 08:04:53 --> Undefined offset: 1
+#0 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->buscar_api()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-15 08:07:39 --> Class 'ZipArchive' not found
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/ExportState.php(296): PHPExcel_Writer_Excel2007->save()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/ExportState.php(195): GroceryCrud\Core\State\ExportState->exportToExcel()
+#2 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\ExportState->render()
+#3 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(257): GroceryCrud\Core\GroceryCrud->render()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->list()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-15 08:08:00 --> Class 'ZipArchive' not found
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/ExportState.php(296): PHPExcel_Writer_Excel2007->save()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/ExportState.php(195): GroceryCrud\Core\State\ExportState->exportToExcel()
+#2 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\ExportState->render()
+#3 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(257): GroceryCrud\Core\GroceryCrud->render()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->list()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-15 08:08:17 --> Class 'ZipArchive' not found
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/ExportState.php(296): PHPExcel_Writer_Excel2007->save()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/ExportState.php(195): GroceryCrud\Core\State\ExportState->exportToExcel()
+#2 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\ExportState->render()
+#3 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(257): GroceryCrud\Core\GroceryCrud->render()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->list()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-15 08:08:57 --> Undefined variable: curd
+#0 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(255): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->list()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-15 08:10:23 --> Class 'ZipArchive' not found
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/ExportState.php(296): PHPExcel_Writer_Excel2007->save()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/ExportState.php(195): GroceryCrud\Core\State\ExportState->exportToExcel()
+#2 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\ExportState->render()
+#3 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(257): GroceryCrud\Core\GroceryCrud->render()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->list()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

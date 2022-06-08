@@ -1,0 +1,230 @@
+CRITICAL - 2021-11-22 00:25:10 --> fopen(/home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/formularioAcceso/menbre.pdf): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/PdfParser/StreamReader.php(42): fopen()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(174): setasign\Fpdi\PdfParser\StreamReader::createByFile()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(213): setasign\Fpdi\Fpdi->getPdfReaderId()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(20): setasign\Fpdi\Fpdi->setSourceFile()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdf/fpdf.php(334): App\Libraries\reportes\FormularioAcceso->Header()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdfTplTrait.php(329): FPDF->AddPage()
+#7 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(33): setasign\Fpdi\FpdfTpl->AddPage()
+#8 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(36): App\Libraries\reportes\FormularioAcceso->reporte()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#11 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-22 00:26:17 --> fopen(/home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/formularioAcceso/menbre.pdf): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/PdfParser/StreamReader.php(42): fopen()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(174): setasign\Fpdi\PdfParser\StreamReader::createByFile()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(213): setasign\Fpdi\Fpdi->getPdfReaderId()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(20): setasign\Fpdi\Fpdi->setSourceFile()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdf/fpdf.php(334): App\Libraries\reportes\FormularioAcceso->Header()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdfTplTrait.php(329): FPDF->AddPage()
+#7 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(33): setasign\Fpdi\FpdfTpl->AddPage()
+#8 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(36): App\Libraries\reportes\FormularioAcceso->reporte()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#11 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-22 00:26:18 --> fopen(/home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/formularioAcceso/menbre.pdf): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/PdfParser/StreamReader.php(42): fopen()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(174): setasign\Fpdi\PdfParser\StreamReader::createByFile()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(213): setasign\Fpdi\Fpdi->getPdfReaderId()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(20): setasign\Fpdi\Fpdi->setSourceFile()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdf/fpdf.php(334): App\Libraries\reportes\FormularioAcceso->Header()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdfTplTrait.php(329): FPDF->AddPage()
+#7 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(33): setasign\Fpdi\FpdfTpl->AddPage()
+#8 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(36): App\Libraries\reportes\FormularioAcceso->reporte()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#11 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-22 00:26:18 --> fopen(/home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/formularioAcceso/menbre.pdf): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/PdfParser/StreamReader.php(42): fopen()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(174): setasign\Fpdi\PdfParser\StreamReader::createByFile()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(213): setasign\Fpdi\Fpdi->getPdfReaderId()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(20): setasign\Fpdi\Fpdi->setSourceFile()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdf/fpdf.php(334): App\Libraries\reportes\FormularioAcceso->Header()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdfTplTrait.php(329): FPDF->AddPage()
+#7 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(33): setasign\Fpdi\FpdfTpl->AddPage()
+#8 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(36): App\Libraries\reportes\FormularioAcceso->reporte()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#11 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-22 00:26:19 --> fopen(/home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/formularioAcceso/menbre.pdf): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/PdfParser/StreamReader.php(42): fopen()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(174): setasign\Fpdi\PdfParser\StreamReader::createByFile()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(213): setasign\Fpdi\Fpdi->getPdfReaderId()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(20): setasign\Fpdi\Fpdi->setSourceFile()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdf/fpdf.php(334): App\Libraries\reportes\FormularioAcceso->Header()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdfTplTrait.php(329): FPDF->AddPage()
+#7 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(33): setasign\Fpdi\FpdfTpl->AddPage()
+#8 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(36): App\Libraries\reportes\FormularioAcceso->reporte()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#11 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-22 00:26:19 --> fopen(/home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/formularioAcceso/menbre.pdf): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/PdfParser/StreamReader.php(42): fopen()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(174): setasign\Fpdi\PdfParser\StreamReader::createByFile()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(213): setasign\Fpdi\Fpdi->getPdfReaderId()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(20): setasign\Fpdi\Fpdi->setSourceFile()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdf/fpdf.php(334): App\Libraries\reportes\FormularioAcceso->Header()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdfTplTrait.php(329): FPDF->AddPage()
+#7 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(33): setasign\Fpdi\FpdfTpl->AddPage()
+#8 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(36): App\Libraries\reportes\FormularioAcceso->reporte()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#11 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-22 00:26:19 --> fopen(/home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/formularioAcceso/menbre.pdf): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/PdfParser/StreamReader.php(42): fopen()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(174): setasign\Fpdi\PdfParser\StreamReader::createByFile()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(213): setasign\Fpdi\Fpdi->getPdfReaderId()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(20): setasign\Fpdi\Fpdi->setSourceFile()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdf/fpdf.php(334): App\Libraries\reportes\FormularioAcceso->Header()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdfTplTrait.php(329): FPDF->AddPage()
+#7 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(33): setasign\Fpdi\FpdfTpl->AddPage()
+#8 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(36): App\Libraries\reportes\FormularioAcceso->reporte()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#11 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-22 00:28:15 --> fopen(/home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/formularioAcceso/menbre.pdf): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/PdfParser/StreamReader.php(42): fopen()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(174): setasign\Fpdi\PdfParser\StreamReader::createByFile()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdiTrait.php(213): setasign\Fpdi\Fpdi->getPdfReaderId()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(20): setasign\Fpdi\Fpdi->setSourceFile()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdf/fpdf.php(334): App\Libraries\reportes\FormularioAcceso->Header()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/setasign/fpdi/src/FpdfTplTrait.php(329): FPDF->AddPage()
+#7 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(33): setasign\Fpdi\FpdfTpl->AddPage()
+#8 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(37): App\Libraries\reportes\FormularioAcceso->reporte()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#11 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-22 00:42:02 --> Undefined index: nombre_preuniversitario
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(38): App\Libraries\reportes\FormularioAcceso->reporte()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-22 00:45:44 --> Undefined index: nombre_preuniversitario
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(38): App\Libraries\reportes\FormularioAcceso->reporte()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-22 00:48:36 --> Undefined index: nombre_preuniversitario
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(38): App\Libraries\reportes\FormularioAcceso->reporte()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-22 00:49:48 --> Undefined index: nombre_preuniversitario
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(38): App\Libraries\reportes\FormularioAcceso->reporte()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-22 00:58:30 --> Too few arguments to function App\Controllers\Postulante::formulario_acceso(), 0 passed in /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-22 00:58:36 --> Too few arguments to function App\Controllers\Postulante::formulario_acceso(), 0 passed in /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-22 01:11:44 --> Trying to access array offset on value of type null
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/FormularioAcceso.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(38): App\Libraries\reportes\FormularioAcceso->reporte()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-22 01:14:06 --> Call to undefined method App\Models\VistaInscripcionModel::numRows
+#0 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(36): CodeIgniter\Model->__call()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-22 01:17:15 --> Call to undefined method App\Models\VistaInscripcionModel::getNumRows
+#0 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(36): CodeIgniter\Model->__call()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->formulario_acceso()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-22 01:34:34 --> Class 'App\Controllers\Ficha' not found
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-22 01:35:25 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 28672 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 01:37:19 --> Undefined property: stdClass::$nombre_preuniversitario
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(116): App\Libraries\reportes\Ficha->reporte()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-22 01:42:03 --> Undefined offset: 0
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/reportes/Ficha.php(59): App\Libraries\reportes\Ficha->generar_fila()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(116): App\Libraries\reportes\Ficha->reporte()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->pdf_ficha_asiento()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-22 11:59:28 --> Undefined variable: vistaInscripcionModel
+#0 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(779): App\Controllers\Postulante->__construct()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-22 12:51:11 --> Trying to get property 'id_inscripcion_preuniversitario' of non-object
+#0 /home/garmaser/www/html/sac-prusuf/app/Views/postulante/index.php(131): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(32): view()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->index()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

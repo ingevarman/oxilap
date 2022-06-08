@@ -1,0 +1,125 @@
+CRITICAL - 2021-10-06 18:33:59 --> Trying to access array offset on value of type bool
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/Model.php(317): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/Model.php(292): GroceryCrud\Core\Model->_getPrimaryKey()
+#2 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(1076): GroceryCrud\Core\Model->getPrimaryKeyField()
+#3 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/EditFormState.php(39): GroceryCrud\Core\State\StateAbstract->getPrimaryKeyName()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/EditFormState.php(65): GroceryCrud\Core\State\EditFormState->initialize()
+#5 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\EditFormState->render()
+#6 /home/garmaser/www/html/sac-prusuf/app/Controllers/Example.php(46): GroceryCrud\Core\GroceryCrud->render()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Example->postulante()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-06 20:12:18 --> syntax error, unexpected '}'
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 21:16:58 --> Undefined property: App\Controllers\Postulante::$ionAuth
+#0 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->new()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 22:03:12 --> There is no primary key defined when trying to make insert.
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#3 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(70): CodeIgniter\Model->insert()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->new()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-06 22:10:36 --> Argument 1 passed to IonAuth\Libraries\IonAuth::register() must be of the type string, null given, called in /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php on line 105
+#0 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(105): IonAuth\Libraries\IonAuth->register()
+#1 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(47): App\Controllers\Postulante->users_new()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->new()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-10-06 22:10:42 --> Duplicate entry '34213233@gamil.com' for key 'email'
+CRITICAL - 2021-10-06 22:10:42 --> Duplicate entry '34213233@gamil.com' for key 'email'
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(848): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(217): IonAuth\Models\IonAuthModel->register()
+#6 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(105): IonAuth\Libraries\IonAuth->register()
+#7 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(47): App\Controllers\Postulante->users_new()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->new()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-06 22:11:09 --> There is no primary key defined when trying to make insert.
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#3 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(70): CodeIgniter\Model->insert()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->new()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-06 22:26:49 --> There is no primary key defined when trying to make insert.
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#3 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(70): CodeIgniter\Model->insert()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->new()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-06 22:28:07 --> There is no primary key defined when trying to make insert.
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#3 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(70): CodeIgniter\Model->insert()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->new()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-06 22:29:22 --> Duplicate entry '67876@gamil.com' for key 'email'
+CRITICAL - 2021-10-06 22:29:22 --> Duplicate entry '67876@gamil.com' for key 'email'
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php(848): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php(217): IonAuth\Models\IonAuthModel->register()
+#6 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(105): IonAuth\Libraries\IonAuth->register()
+#7 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(47): App\Controllers\Postulante->users_new()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->new()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-06 22:33:41 --> Allowed fields must be specified for model: App\Models\PostulanteModel
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#3 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(70): CodeIgniter\Model->insert()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->new()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-06 22:34:31 --> Allowed fields must be specified for model: App\Models\PostulanteModel
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#3 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(70): CodeIgniter\Model->insert()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->new()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

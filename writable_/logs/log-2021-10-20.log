@@ -1,0 +1,164 @@
+CRITICAL - 2021-10-20 00:07:32 --> Statement could not be executed (HY000 - 1364 - Field 'ip_address' doesn't have a default value)
+#0 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/Model.php(517): Zend\Db\Adapter\Driver\Pdo\Statement->execute()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/InsertState.php(85): GroceryCrud\Core\Model->insert()
+#2 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(1009): GroceryCrud\Core\State\InsertState->GroceryCrud\Core\State\{closure}()
+#3 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(334): GroceryCrud\Core\State\StateAbstract->stateOperation()
+#4 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/InsertState.php(95): GroceryCrud\Core\State\StateAbstract->stateOperationWithCallbacks()
+#5 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\InsertState->render()
+#6 /home/garmaser/www/html/sac-prusuf/app/Controllers/Administrador.php(42): GroceryCrud\Core\GroceryCrud->render()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->postulante()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-20 00:56:55 --> Class 'CustomersModel' not found
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->usuario()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 01:02:26 --> Class 'App\Models\UserModel' not found
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Administrador->usuario()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 01:02:47 --> Cannot declare class UsersGrocerycrudModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-20 01:04:01 --> Cannot declare class UsersGrocerycrudModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-20 01:04:02 --> Cannot declare class UsersGrocerycrudModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-20 01:04:14 --> Cannot declare class UsersGrocerycrudModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-20 01:04:32 --> Cannot declare class UsuarioGrocerycrudModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-20 01:05:50 --> Cannot declare class UsuarioGrocerycrudModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-20 01:08:01 --> Cannot declare class UsuarioGrocerycrudModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-20 01:20:26 --> Archivo inválido: layouts/menu.php
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(432): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/sac-prusuf/app/Views/layouts/admin.php(47): CodeIgniter\View\View->include()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#7 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(334): view()
+#8 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(320): App\Controllers\Inscripcion->vista_grocerycrud()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->list()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#11 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-20 01:20:50 --> Archivo inválido: layouts/menu.php
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(432): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/sac-prusuf/app/Views/layouts/admin.php(47): CodeIgniter\View\View->include()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#7 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(334): view()
+#8 /home/garmaser/www/html/sac-prusuf/app/Controllers/Inscripcion.php(320): App\Controllers\Inscripcion->vista_grocerycrud()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Inscripcion->list()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#11 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-20 01:23:33 --> Undefined offset: 1
+#0 /home/garmaser/www/html/sac-prusuf/app/Helpers/principal_helper.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Helpers/principal_helper.php(24): get_enum_valores()
+#2 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(28): get_select_enum()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->add()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-20 01:24:26 --> Undefined variable: select_nacionalidad
+#0 /home/garmaser/www/html/sac-prusuf/app/Views/postulante/add.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#2 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(39): view()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->add()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 01:24:47 --> Archivo inválido: layouts/menu.php
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(432): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/sac-prusuf/app/Views/layouts/admin.php(47): CodeIgniter\View\View->include()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#7 /home/garmaser/www/html/sac-prusuf/app/Controllers/Postulante.php(39): view()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Postulante->add()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-20 01:43:25 --> Undefined index: id_inscripcion_preuniversitario
+#0 /home/garmaser/www/html/sac-prusuf/app/Controllers/Caja.php(138): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(841): App\Controllers\Caja->App\Controllers\{closure}()
+#2 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/DatagridState.php(367): GroceryCrud\Core\State\StateAbstract->enhanceColumnResults()
+#3 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\DatagridState->render()
+#4 /home/garmaser/www/html/sac-prusuf/app/Controllers/Caja.php(148): GroceryCrud\Core\GroceryCrud->render()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Caja->reporte()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 01:44:30 --> Undefined index: id_inscripcion_preuniversitario
+#0 /home/garmaser/www/html/sac-prusuf/app/Controllers/Caja.php(138): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/StateAbstract.php(841): App\Controllers\Caja->App\Controllers\{closure}()
+#2 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/State/DatagridState.php(367): GroceryCrud\Core\State\StateAbstract->enhanceColumnResults()
+#3 /home/garmaser/www/html/sac-prusuf/app/Libraries/GroceryCrudEnterprise/grocerycrud/enterprise/src/GroceryCrud/Core/GroceryCrud.php(2642): GroceryCrud\Core\State\DatagridState->render()
+#4 /home/garmaser/www/html/sac-prusuf/app/Controllers/Caja.php(148): GroceryCrud\Core\GroceryCrud->render()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Caja->reporte()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 01:54:35 --> Archivo inválido: layouts/menu.php
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(432): CodeIgniter\View\View->render()
+#2 /home/garmaser/www/html/sac-prusuf/app/Views/layouts/admin.php(47): CodeIgniter\View\View->include()
+#3 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/garmaser/...')
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Controllers/Auth.php(923): view()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/benedmunds/codeigniter-ion-auth/Controllers/Auth.php(244): IonAuth\Controllers\Auth->renderPage()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(802): IonAuth\Controllers\Auth->change_password()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#11 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-20 02:11:11 --> syntax error, unexpected ''before'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Config/Factories.php(136): class_exists()
+#5 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#6 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Common.php(197): CodeIgniter\Config\Factories::__callStatic()
+#7 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Config/Services.php(258): config()
+#8 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#9 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#10 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Config/Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance()
+#11 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#12 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\Config\BaseService::__callStatic()
+#13 /home/garmaser/www/html/sac-prusuf/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#14 /home/garmaser/www/html/sac-prusuf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
