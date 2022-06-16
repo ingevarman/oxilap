@@ -4,18 +4,17 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class VidaUniversitariaModel extends Model
+class ClienteModel extends Model
 {
     protected $DBGroup              = 'default';
-    protected $table                = 'vida_universitaria';
-    protected $primaryKey           = 'id_vida_universitaria';
+    protected $table                = 'cliente';
+    protected $primaryKey           = 'id_cliente';
     protected $useAutoIncrement     = true;
     protected $insertID             = 0;
     protected $returnType           = 'object';
     protected $useSoftDeletes       = false;
     protected $protectFields        = true;
-    protected $allowedFields        = [];
-
+    protected $allowedFields        = ['nombre', 'ape_paterno', 'ape_materno', 'id_cargo', 'turno', 'activo'];
     // Dates
     protected $useTimestamps        = false;
     protected $dateFormat           = 'datetime';
@@ -39,11 +38,12 @@ class VidaUniversitariaModel extends Model
     protected $afterFind            = [];
     protected $beforeDelete         = [];
     protected $afterDelete          = [];
+
     
-    public function get_vida_universitaria($idDocente){
-        $this->select('nombre_vida_universitaria, vida_universitaria.descripcion_vida_universitaria, gestion, archivo_digital');
-        $this->join('vida_universitaria_tipo','vida_universitaria.id_vida_universitaria_tipo = vida_universitaria_tipo.id_vida_universitaria_tipo');
-        $this->where(['id_docente'=>$idDocente]);
-        return $this->get();
+
+    public function registroCliente($dato){
+        $this->select('cliente.id_cliente, cliente.nombre_cliente, cliente.apellido_paterno, cliente.apellido_materno, cliente.empresa, cliente.nit, cliente.telefono');
+        return $this->get()->getResult();
     }
+    
 }

@@ -282,7 +282,7 @@ class Model implements ModelInterface
     public function getPrimaryKeyField ($tableName = null) {
         if ($tableName === null) {
             $tableName = $this->tableName;
-        }
+        }        
 
         // Is it already setted?
         if (!empty($this->primaryKeys[$tableName])) {
@@ -314,7 +314,18 @@ class Model implements ModelInterface
 
             $primaryKeyData = $result->current();
 
-            $this->primaryKeys[$tableName] = $primaryKeyData['Column_name'];
+            
+
+            
+
+            
+            if(empty($primaryKeyData['Column_name'])){
+                //dd($primaryKeyData);
+                $this->primaryKeys[$tableName]='id_producto';
+                //dd($this->primaryKeys[$tableName]);
+            }else{
+                $this->primaryKeys[$tableName] = $primaryKeyData['Column_name'];
+            }
 
             return $this->primaryKeys[$tableName];
         }

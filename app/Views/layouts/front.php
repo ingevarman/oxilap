@@ -13,7 +13,8 @@
         <link rel="stylesheet" href="<?php echo base_url('dist/vendors/jquery-ui/jquery-ui.min.css'); ?>">
         <link rel="stylesheet" href="<?php echo base_url('dist/vendors/jquery-ui/jquery-ui.theme.min.css'); ?>">
         <link rel="stylesheet" href="<?php echo base_url('dist/vendors/simple-line-icons/css/simple-line-icons.css'); ?>">        
-        <link rel="stylesheet" href="<?php echo base_url('dist/vendors/flags-icon/css/flag-icon.min.css'); ?>">         
+        <link rel="stylesheet" href="<?php echo base_url('dist/vendors/flags-icon/css/flag-icon.min.css'); ?>"> 
+           
         <!-- END Template CSS-->
 
 
@@ -51,7 +52,7 @@
             var base_url = "<?= base_url('') ?>";
         </script>
         <!-- START: Template JS-->
-        <script src="<?php echo base_url('dist/vendors/jquery/jquery-3.3.1.min.js'); ?>"></script>
+        <script src="http://localhost/oxilap/public/dist/vendors/jquery/jquery-3.3.1.min.js"></script>  
         <script src="<?php echo base_url('dist/vendors/jquery-ui/jquery-ui.min.js'); ?>"></script>
         <script src="<?php echo base_url('dist/vendors/moment/moment.js'); ?>"></script>
         <script src="<?php echo base_url('dist/vendors/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>    

@@ -1,7 +1,7 @@
 (function ($) {
-  
+    "use strict";
 
-
+    var contact;
 
     $('.scrollertodo').slimScroll({
         height: '500px',
@@ -37,7 +37,6 @@
     });
 
     $(".add-contact-form").submit(function (event) {
-         
         var name = $('#contact-name').val();
         var email = $('#contact-email').val();
         var occupation = $('#contact-occupation').val();

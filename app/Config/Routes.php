@@ -57,6 +57,7 @@ $routes->group('administrador', ['namespace' => 'App\Controllers','filter' => 'a
 	$routes->get('logout', 'Auth::logout');
 	$routes->add('tipo_producto', 'Administrador::tipo_producto');
 	$routes->add('producto', 'Administrador::producto');
+	$routes->add('precio', 'Administrador::precio');
 });
 
 
@@ -83,8 +84,37 @@ $routes->group('atencioncliente', ['namespace' => 'App\Controllers\AtencionClien
 	$routes->add('/', 'Cliente::Index');
 	$routes->get('principal', 'Inicio::Principal');
 	// $routes->add('cliente/(:any)', 'Cliente::Index/$1');
-	$routes->add('cliente', 'Cliente::Index');
+	$routes->add('cliente', 'Cliente::cliente');
+	$routes->add('ubicacionCliente', 'Cliente::ubicacionCliente');
+	$routes->add('registroPedido/(:any)', 'Cliente::registroPedido/$1');
+	
+	//grupo para el registro del pedido
+	//$routes->add('registroPedidos','Producto::vistaPedidos');
+
+	
+	$routes->post('pedidoRegistrado/(:any)' ,'Cliente::designarPedido/$1');
+	
+	//$routes->add('designarPedido', 'Pedido::designarPedido');
+	$routes->add('designarPedido/(:any)','Cliente::designarPedido/$1');
+	$routes->add('registrarDetalle','Cliente::registrarDetalle');
+
 });
+$routes->group('sistemas', ['namespace' => 'App\Controllers\Sistemas','filter' => 'auth:2'], function ($routes) {
+	$routes->add('/', 'Sistemas::Index');
+	$routes->get('principal', 'Inicio::Principal');
+	$routes->add('registroUsario', 'Sistemas::registroUsario');
+	// $routes->add('cliente/(:any)', 'Cliente::Index/$1');
+	
+});
+
+$routes->group('caja', ['namespace' => 'App\Controllers\Caja','filter' => 'auth:2'], function ($routes) {
+	$routes->add('/', 'Caja::Index');
+	$routes->get('principal', 'Inicio::Principal');
+	$routes->add('registroCaja', 'Caja::registroCaja');
+
+	
+});
+
 
 $routes->group('gerente', ['namespace' => 'App\Controllers\Gerente','filter' => 'auth:2'], function ($routes) {
 	$routes->add('/', 'Gerente::index');
